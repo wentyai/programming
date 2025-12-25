@@ -45,4 +45,4 @@
 
 Пункт (15)
 
-<img width="582" height="825" alt="image" src="https://github.com/user-attachments/assets/737f2cfc-f02a-4d72-8fff-7c7a0177494f" />
+<img width="509" height="802" alt="image" src="https://github.com/user-attachments/assets/1ccb06cf-45f3-4257-8d79-9cb82ddc36ec" />
