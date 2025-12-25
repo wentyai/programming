@@ -11,7 +11,7 @@ int compare_ints(const void *a, const void *b) {
 }
 
 int main() {
-    int arr[] = {10, 7, 8, 9, 1, 5};
+    int arr[] = {10, 11, 8, 9, 1, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("Исходный массив: ");
@@ -27,4 +27,5 @@ int main() {
 
     return 0;
 }
+// Еще изменение
 
