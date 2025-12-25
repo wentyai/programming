@@ -18,7 +18,6 @@
 Пункт (5)
 
 <img width="548" height="214" alt="image" src="https://github.com/user-attachments/assets/9b25adb1-755c-44de-9642-b85dd0d43c4b" />
-
 Пункт (10)
 
 <img width="552" height="103" alt="image" src="https://github.com/user-attachments/assets/087c1313-d33a-4828-90dd-eb2881c1a319" />
