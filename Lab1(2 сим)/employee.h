@@ -1,17 +1,15 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
-#define N 10 // Количество сотрудников
+#define N 10 
 
-// Структура "Сотрудник"
 typedef struct {
     char lastName[50];
-    int id;          // Табельный номер
-    int department;  // Номер отдела
-    float salary;    // Оклад
+    int id;          
+    int department;  
+    float salary;    
 } Employee;
 
-// Прототипы функций
 void fillEmployees(Employee *arr, int n);
 void printTable(const Employee *arr, int n);
 void sortById(Employee *arr, int n);

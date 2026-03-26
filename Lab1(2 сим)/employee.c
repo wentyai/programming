@@ -4,25 +4,22 @@
 #include <time.h>
 #include "employee.h"
 
-// Функция для генерации случайных фамилий
 static const char* getRandomLastName() {
     const char *names[] = {"Иванов", "Петров", "Сидоров", "Смирнов", "Кузнецов",
                            "Попов", "Васильев", "Соколов", "Михайлов", "Фёдоров"};
     return names[rand() % 10];
 }
 
-// 3. Заполнение массива структур случайными осмысленными данными
 void fillEmployees(Employee *arr, int n) {
-    srand((unsigned int)time(NULL)); // Инициализация генератора случайных чисел
+    srand((unsigned int)time(NULL)); 
     for (int i = 0; i < n; i++) {
         strcpy(arr[i].lastName, getRandomLastName());
-        arr[i].id = i + 1; // Табельные номера от 1 до N
-        arr[i].department = rand() % 5 + 1; // Номер отдела от 1 до 5
-        arr[i].salary = (rand() % 30000 + 20000) + (rand() % 100) / 100.0f; // Оклад от 20000 до 50000
+        arr[i].id = i + 1; 
+        arr[i].department = rand() % 5 + 1; 
+        arr[i].salary = (rand() % 30000 + 20000) + (rand() % 100) / 100.0f; 
     }
 }
 
-// 4. Красивый вывод массива в виде таблицы
 void printTable(const Employee *arr, int n) {
     printf("\n+-----+----------------------+-------------+----------+--------------+\n");
     printf("|  №  |      Фамилия         | Табельный № | Отдел    | Оклад (руб.) |\n");
@@ -34,7 +31,6 @@ void printTable(const Employee *arr, int n) {
     printf("+-----+----------------------+-------------+----------+--------------+\n");
 }
 
-// 5. Алгоритм сортировки (Сортировка выбором) по целочисленному полю "id" (Табельный номер)
 void sortById(Employee *arr, int n) {
     for (int i = 0; i < n - 1; i++) {
         int minIndex = i;
