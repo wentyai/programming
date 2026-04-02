@@ -186,12 +186,12 @@ void searchEmployee(Employee *employees, int count) {
     }
     
     if (found != -1) {
-        printf("\n✅ Сотрудник найден:\n");
+        printf("\nСотрудник найден:\n");
         printf("   Имя: %s\n", employees[found].name);
         printf("   ID: %d\n", employees[found].id);
         printf("   Уровень: %s\n", employees[found].level);
     } else {
-        printf("❌ Ошибка: сотрудник с ID %d не найден\n", searchId);
+        printf(" Ошибка: сотрудник с ID %d не найден\n", searchId);
     }
 }
 
