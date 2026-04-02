@@ -1,0 +1,4 @@
+/root/programming/lab2(2 сим)/build/CMakeFiles/employee.dir
+/root/programming/lab2(2 сим)/build/CMakeFiles/program.dir
+/root/programming/lab2(2 сим)/build/CMakeFiles/edit_cache.dir
+/root/programming/lab2(2 сим)/build/CMakeFiles/rebuild_cache.dir
