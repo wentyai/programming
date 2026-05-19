@@ -70,7 +70,6 @@ int loadFromCSV(const char *filename, Employee **employees) {
             continue;
         }
         
-        // Разделяем строку по символу ';'
         char *token = strtok(line, ";");
         if (token == NULL) continue;
         strcpy((*employees)[count].name, token);
