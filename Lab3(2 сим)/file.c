@@ -8,7 +8,6 @@ typedef struct Node {
     struct Node* down; 
 } Node;
 
-// создание узла
 Node* createNode(int val) {
     Node* n = (Node*)malloc(sizeof(Node));
     n->value = val;
@@ -18,7 +17,6 @@ Node* createNode(int val) {
     return n;
 }
 
-// добавление в конец
 void append(Node** head, Node* n) {
     if (*head == NULL) {
         *head = n;
